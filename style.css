@@ -1,0 +1,69 @@
+#css-heading {
+    text-align: center;
+    font-size: 3em;
+    background-color: rgba(128, 0,  128, 0.2);
+}
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url("fonts/Poppins-Regular.ttf");
+  }
+  @font-face {
+    font-family: "PoppinsLight";
+    src: url("fonts/Poppins-Light.ttf");
+  }
+  @font-face {
+    font-family: "PoppinsBold";
+    src: url("fonts/Poppins-Bold.ttf");
+  }
+
+
+h1{
+    color: chocolate;
+}
+
+
+
+body{
+    background-color: bisque;
+    background-image: url(https://images.unsplash.com/photo-1697996067551-afe67fa5197b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D);
+ height: 1500;
+ width: 1500;
+}
+
+
+  li > span{
+    font-family: "PoppinsBold";
+    text-decoration: underline;
+    text-decoration-style: double;
+    color: chocolate
+    
+  }
+
+  p{
+    text-align: justify;
+    color: chocolate;
+    padding-left: 3%;
+    font-family: "PoppinsRegular" ;
+  }
+
+  h1{
+    font-family: "Poppinsbold";
+    text-align: center;
+    color: chocolate;
+    background-color: rgba(128, 0, 128, 0.3);
+  }
+
+
+
+
+  li{
+    font-family:"PoppinsLight" ;
+font-size: 32px;
+margin: 5px;
+padding: 5px;
+border: 1px solid black;
+text-decoration: underline;
+color: chocolate;
+background-color: rgba(128, 0, 128, 0.2);
+  }
